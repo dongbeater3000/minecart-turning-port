@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_17",
+  "package": "com.db3k.minecartturningport.mixin",
+  "refmap": "minecartturningport.mixin-refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "EntityMixin"
+  ]
+}
