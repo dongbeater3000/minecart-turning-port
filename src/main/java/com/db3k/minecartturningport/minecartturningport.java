@@ -26,8 +26,6 @@ public class minecartturningport
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
-
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, com.db3k.minecartturningport.Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
